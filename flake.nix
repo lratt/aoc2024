@@ -26,7 +26,7 @@
               openssl
               pkg-config
               clang
-              (rust-bin.stable."1.81.0".default.override {
+              (rust-bin.nightly."2024-12-01".default.override {
                 extensions = [
                   "rust-src"
                   "rust-analyzer"
